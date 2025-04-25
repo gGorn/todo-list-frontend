@@ -1,4 +1,42 @@
-# React + Vite
+# 🎨 Frontend – Vite + React
+
+This is the frontend project of a fullstack application built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/). It connects to a Go Fiber backend for API calls.
+
+---
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/) – for HTTP requests
+- [React Router](https://reactrouter.com/) – (optional if routing is used)
+
+---
+
+## ขั้นตอนการติดตั้ง
+1. **Clone โปรเจกต์จาก GitHub**
+
+   ```bash
+   git clone https://github.com/elephz/todo-list-frontend.git
+   cd todo-list-frontend
+   ```
+
+2. **ติดตั้ง dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **แก้ไขไฟล์ `.env`**
+
+   ```bash
+   VITE_API_URL=`BACKENDURL`
+   ```
+
+34. **รัน serve**
+   ```bash
+   npm run dev
+   ```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
