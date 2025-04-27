@@ -1,8 +1,5 @@
 import Navbar from '@/components/navbar/Navbar';
 import Home from '@/pages/Home';
-import Movie from '@/pages/Movie';
-import Cart from "@/pages/Cart";
-import TodoList from '@/pages/TodoList';
 import React from 'react'
 
 import { BrowserRouter, Routes, Route, Outlet } from "react-router";
@@ -21,10 +18,9 @@ const AppRoutes = () => {
             </>
           }
         >
-          <Route path="/" element={<TodoList />} />
-          <Route path="/todo-list" element={<TodoList />} />
-          <Route path="/movie" element={<Movie />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/" element={<Home />} />
+          {/*<Route path="/about" element={<div>About</div>} />
+        <Route path="/contact" element={<div>Contact</div>} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
